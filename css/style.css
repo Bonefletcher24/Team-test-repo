@@ -1,0 +1,170 @@
+:root{
+    --ORANGE:#FD9222;
+    --BLACK: #1E1823;
+}
+
+body{
+    font-family: 'Montserat', sans-serif;
+
+}
+
+.ingredients{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ing-cont{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 486px;
+    height: 156px;
+    gap: 28px;
+}
+
+.ing-main-text{
+    color: #111;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px; /* 116.667% */
+    letter-spacing: -0.72px;
+    text-transform: uppercase;
+}
+
+.taste-text{
+    color: var(--ORANGE);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: -0.72px;
+    text-transform: uppercase;
+}
+
+.ing-2nd-text{
+    color: #111;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px; /* 128.571% */
+    letter-spacing: -0.28px;
+}
+
+.ing-box{
+/* display: flex;
+justify-content: center;
+align-items: center; */
+}
+
+.ing-names{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1136px;
+    gap: 19px;
+}
+
+.ing-style{
+    display: flex;
+    padding: 28px 36px 28px 28px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 36px;
+    border-radius: 15px; 
+    list-style: none;
+}
+
+.ing-milk-choco{
+    background: var(--ORANGE); 
+}
+
+.ing-nuts{
+    background: var(--BLACK);
+}
+
+.ing-milk,
+.ing-sweet-choco{
+    border-radius: 15px;
+border: 1px solid var(--ORANGE);
+}
+
+
+.ing-text-colors-wh{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px; /* 128.571% */
+    letter-spacing: -0.28px;
+    text-transform: uppercase;
+}
+
+.ing-text-colors-bl{
+    color: #111;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px; /* 128.571% */
+    letter-spacing: -0.28px;
+    text-transform: uppercase;
+}
+
+
+.ing-recipe-box{
+    display: flex;
+    width: 516px;
+    height: 400px;
+    padding: 32px;
+    justify-content: center;
+    align-items: center;
+}
+
+.ing-preparing-clip{
+    width: 600px;
+    height: 400px;
+    border-radius: 15px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.40) 0%, rgba(0, 0, 0, 0.40) 100%), url(<path-to-image>), lightgray -10.819px -343.839px / 103.473% 236.295% no-repeat;
+}
+
+
+.ing-recipe{
+    display: flex; 
+    width: 516px; 
+    height: 400px; 
+    padding: 32px; 
+    /* justify-content: center; */
+    align-items: center; 
+    flex-shrink: 0; 
+    flex-direction: column;
+}
+
+.ing-recipe-text-1{
+    color: var(--BLACK);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 133.333% */
+}
+
+
+.ing-recipe-text-2{
+    color: var(--BLACK);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; /* 128.571% */
+    letter-spacing: -0.28px;
+    list-style-type:circle;
+}
+
+
+
+
