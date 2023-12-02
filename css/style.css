@@ -1,6 +1,7 @@
 :root{
     --ORANGE:#FD9222;
     --BLACK: #1E1823;
+    --WHITE: #FFF;
 }
 
 body{
@@ -115,6 +116,95 @@ border: 1px solid var(--ORANGE);
     text-transform: uppercase;
 }
 
+/* VISUALIZATION */
+.ing-visual{
+    position: absolute;
+    transform: translateY(100%);
+    transition: transform 0.45s cubic-bezier(0.4, 0, 0.2, 1);
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.ing-milk-choco,
+.ing-milk,
+.ing-nuts,
+.ing-sweet-choco {
+    position: relative;
+    overflow: hidden;
+}
+
+.ing-milk-choco:hover .ing-visual,
+.ing-milk:hover .ing-visual,
+.ing-nuts:hover .ing-visual,
+.ing-sweet-choco:hover .ing-visual
+{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.ing-vis-h3{
+    color: var(--BLACK);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.54px;
+    text-transform: uppercase;
+    padding-left: 20px;
+}
+
+.ing-vis-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+.ing-vis-btn-1{
+    color: var(--WHITE);
+    font-family: Montserrat;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12px; 
+    background: var(--ORANGE);
+    border-radius: 35px;
+    padding: 6px 16px;
+}
+
+.ing-vis-btn-2{
+    color: var(--BLACK);
+    font-family: Montserrat;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12px; 
+    border-radius: 35px;
+    padding: 6px 16px;
+    border: 1px solid var(--ORANGE);
+    background:var(--WHITE)
+}
+
+.ing-vis-decription{
+    color: var(--BLACK);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.28px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    text-align:justify;
+   }
+
+
+
+/* RECIPE */
 
 .ing-recipe-box{
     display: flex;
