@@ -159,9 +159,10 @@ border: 1px solid #FD9222;
 
 .ing-vis-btn{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     gap: 4px;
+    padding-left: 20px;
 }
 
 .ing-vis-btn-1{
