@@ -358,6 +358,8 @@ border: 1px solid #FD9222;
         line-height: 24px; 
         letter-spacing: -0.6px;
         text-transform: uppercase;
+            padding-bottom: 32px;
+            padding-top: 72px;
     }
 
     .taste-text{
