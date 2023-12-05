@@ -295,11 +295,18 @@ border: 1px solid #FD9222;
 /* Mobile responsivity */
 
 /* 1st part */
-@media (max-width: 375px) {
+@media (max-width: 430px) {
+
+    .ingredients{
+        display: flex;
+        align-items: center;
+        width: 375px;
+
+    }
 
     .ing-cont{
         display: flex;
-        width: 335px;
+        width: 430px;
         height: 1376px;
         flex-direction: column;
         align-items: center;
@@ -322,6 +329,7 @@ border: 1px solid #FD9222;
         font-weight: 400;
         line-height: 18px; 
         letter-spacing: -0.28px;
+        padding-left: 40px;
     }
 
     .ing-names{
@@ -330,12 +338,14 @@ border: 1px solid #FD9222;
         height: 1140px;
         gap: 20px;
         align-items: center;
-        padding-right: 40px;
+        /* padding-right: 40px; */
 
     }
 
     .ing-style{
         width: 335px;
+        align-items: center;
+        display: flex;
     }
 
     /* 2nd part */
@@ -347,6 +357,13 @@ border: 1px solid #FD9222;
         align-items: center;
         gap: 32px;
         flex-shrink: 0;
+        margin-top: 140px;
+        /* padding-left: 40px; */
+    }
+
+    .ing-made{
+        padding-bottom: 32px;
+        padding-top: 72px;
     }
 
     .ing-main-text{
@@ -358,8 +375,7 @@ border: 1px solid #FD9222;
         line-height: 24px; 
         letter-spacing: -0.6px;
         text-transform: uppercase;
-            padding-bottom: 32px;
-            padding-top: 72px;
+
     }
 
     .taste-text{
@@ -377,7 +393,8 @@ border: 1px solid #FD9222;
         width: 335px;
         height: 500px;
         display: flex; 
-        align-items: center;   
+        align-items: center;
+        padding-left: 40px;   
     }
 
     .ing-recipe{
@@ -393,7 +410,7 @@ border: 1px solid #FD9222;
     }
         
     .ing-recipe-text-2{
-        width: 291px;
+        width: 335px;
     }
 
 }
