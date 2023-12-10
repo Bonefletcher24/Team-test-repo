@@ -265,6 +265,8 @@ border: 1px solid #FD9222;
     .ing-main-text{
         flex-wrap: wrap;
         text-align: center;
+        padding-left:0px;
+
     }
 
     .ing-cont p{
@@ -315,6 +317,7 @@ border: 1px solid #FD9222;
         width: 283px;
         height: 72px;
         flex-shrink: 0;
+        padding-left: 40px;
     }
 
     .ing-2nd-text{
