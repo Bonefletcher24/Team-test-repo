@@ -131,6 +131,7 @@ border: 1px solid #FD9222;
 .ing-sweet-choco {
     position: relative;
     overflow: hidden;
+    cursor: pointer;
 }
 
 .ing-milk-choco:hover .ing-visual,
@@ -415,9 +416,3 @@ border: 1px solid #FD9222;
 
 }
 
-
-/* Tab version */
-
-@media (max-width: 704px) {
-
-}
