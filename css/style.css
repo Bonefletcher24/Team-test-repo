@@ -279,7 +279,7 @@ border: 1px solid #FD9222;
         display: flex;
         justify-content: center;
         align-items: center;
-            padding-right:40px ;
+        padding-right:40px ;
 
     }
 
@@ -335,7 +335,7 @@ border: 1px solid #FD9222;
         height: 1140px;
         gap: 20px;
         align-items: center;
-        /* padding-right: 40px; */
+        padding-right: 0px;
 
     }
 
